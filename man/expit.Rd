@@ -3,9 +3,11 @@
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
 %%  ~~function to do ... ~~
+INTERNAL
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
+MISSING
 }
 \usage{
 expit(x)
@@ -47,7 +49,7 @@ expit(x)
 ##--	or do  help(data=index)  for the standard data sets.
 
 ## The function is currently defined as
-function (x) 
+function (x)
 {
     exp(x)/(1 + exp(x))
   }
