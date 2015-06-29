@@ -3,9 +3,11 @@
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
 %%  ~~function to do ... ~~
+INTERNAL
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
+MISSING
 }
 \usage{
 logit(x)
@@ -47,7 +49,7 @@ logit(x)
 ##--	or do  help(data=index)  for the standard data sets.
 
 ## The function is currently defined as
-function (x) 
+function (x)
 {
     log(x/(1 - x))
   }
